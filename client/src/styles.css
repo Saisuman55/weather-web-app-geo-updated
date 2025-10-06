@@ -1,0 +1,14 @@
+body{font-family:Inter,system-ui,Arial;margin:20px;background:#eef2ff;color:#111}
+.container{max-width:900px;margin:0 auto;background:#fff;padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.05)}
+header h1{margin:0 0 10px}
+form{display:flex;gap:8px;margin-bottom:12px}
+input{flex:1;padding:8px;border-radius:6px;border:1px solid #ddd}
+button{padding:8px 12px;border-radius:6px;border:none;background:#2563eb;color:#fff;cursor:pointer}
+.card{padding:12px;background:#f8fafc;border-radius:6px;margin-bottom:10px}
+.forecast{display:flex;gap:8px;flex-wrap:wrap}
+.day{background:#fff;padding:8px;border-radius:6px;border:1px solid #eee;min-width:140px}
+.error{color:#b91c1c}
+footer{margin-top:16px;color:#6b7280;font-size:13px}
+.geopin{background:white;color:#2563eb;border:1px solid #ddd;padding:6px 8px;border-radius:8px;cursor:pointer}
+.geopin[disabled]{opacity:0.6;cursor:progress}
+@media(max-width:600px){ .forecast{flex-direction:column} }
